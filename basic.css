@@ -1,0 +1,53 @@
+body
+{
+	background-image: url("");
+	margin-left: 25px;
+}
+
+p,h2,h3
+{
+	font-family: "Times New Roman", Times, serif;
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+#Intro
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	
+}
+#Top
+{
+	text-align: center;
+}
+
+.BoxHeader
+{
+	margin-left: 0px;
+}
+.IntroImage
+{	
+	
+	float: right;
+	padding-left: 8px;
+	margin-right: 25px;
+	border-color: black;
+	border-style: solid;
+	width: 250px;
+	height: 120px;
+	background-color: #D3D3D3;
+	text-align: left;
+}
+
+.TableOfContents
+{
+	padding-left: 8px;
+	margin-left: 25px;
+	border-color: black;
+	border-style: solid;
+	width: 200px;
+	height: 400px;
+	background-color: #D3D3D3;
+	text-align: justify;
+}
