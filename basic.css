@@ -1,38 +1,93 @@
 body
 {
-	background-image: url("");
-	margin-left: 25px;
+	background-color: #F0F0F0;
+	margin-left: 0px;
+	line-height: 20px;
 }
+
 
 p,h2,h3
 {
 	font-family: "Times New Roman", Times, serif;
-	margin-left: 25px;
-	margin-right: 15px;
+	margin-left: 15px;
 }
 
+
+#gameplayImage2
+{	
+	border: solid gray;
+	padding: 2px;
+	margin-right: 25px;
+	float: right;
+}
+#gameplayImage1
+{
+	border: solid gray;
+	padding: 2px;
+	float: right;
+	margin-right: 5px;
+}
 #Intro
 {
-	margin-left: 25px;
+	margin-left: 15px;
 	margin-right: 25px;
-	
 }
-#Top
-{
+
+#Top, #validator
+{	
+	margin-top: 40px;
 	text-align: center;
+}
+
+#downloadLink
+{
+	float:right;
+}
+.navbar	
+{
+	/* Removes bullets */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #d3d3d3;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar>li>a:hover 
+{
+	background-color:#A9A9A9;
+}
+
+.navbar>li
+{
+	/* Makes list horizontal */
+	display: inline-block;
+	float: left;
+}	
+
+.navbar>li>a
+{
+	display: block;
+	padding: 8px 25px;
+	text-decoration: none;
 }
 
 .BoxHeader
 {
 	margin-left: 0px;
 }
+
 .IntroImage
 {	
 	
 	float: right;
 	padding-left: 8px;
 	margin-right: 25px;
-	border-color: black;
+	border-color: gray;
 	border-style: solid;
 	width: 250px;
 	height: 120px;
@@ -43,11 +98,38 @@ p,h2,h3
 .TableOfContents
 {
 	padding-left: 8px;
-	margin-left: 25px;
-	border-color: black;
+	margin-left: 15px;
+	border-color: gray;
 	border-style: solid;
 	width: 200px;
-	height: 400px;
+	height: 315px;
 	background-color: #D3D3D3;
 	text-align: justify;
+
+
+a:link
+{
+	text-decoration: none;
 }
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
