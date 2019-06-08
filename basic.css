@@ -7,8 +7,7 @@ body
 
 video
 {
-	float: right;
-	margin-right: 320px;
+	margin-left: 25%
 }
 
 p,h2
@@ -17,6 +16,10 @@ p,h2
 	margin-left: 15px;
 }
 
+a
+{
+	color: #000099;
+}
 
 #gameplayImage2
 {	
@@ -25,6 +28,7 @@ p,h2
 	margin-right: 25px;
 	float: right;
 }
+
 #gameplayImage1
 {
 	border: solid gray;
@@ -33,10 +37,33 @@ p,h2
 	margin-right: 5px;
 }
 
+#questsImage
+{
+	float: right;
+	padding: 1px;
+	border: solid gray;
+	margin-right: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#elixirImage
+{	
+	padding: 1px;
+	border: solid gray;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
 #Gameplay
 {
 	margin-top: 50px;
+	text-align: center;
 }
+
+
 #Intro
 {
 	margin-left: 15px;
@@ -93,7 +120,11 @@ p,h2
 	text-decoration: none;
 }
 
-
+.readerNotes
+{
+	color: blue;
+	font-family: Roboto, Calibri, sans-serif;
+}
 .BoxHeader
 {
 	margin-left: 0px;
@@ -120,7 +151,7 @@ p,h2
 	border-color: gray;
 	border-style: solid;
 	width: 200px;
-	height: 250px;
+	height: 220px;
 	background-color: #D3D3D3;
 	text-align: justify;
 }
