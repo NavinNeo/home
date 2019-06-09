@@ -7,7 +7,9 @@ body
 
 video
 {
-	margin-left: 25%
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
 }
 
 p,h2
@@ -91,6 +93,11 @@ ol
 {
 	margin-top: 50px;
 
+}
+
+#References
+{
+	margin-top: 400px;
 }
 
 
