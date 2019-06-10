@@ -5,7 +5,7 @@ body
 	line-height: 20px;
 }
 
-video
+video /* centering the videos by putting left side at the center and subtracting half of width to the left side position */
 {
 	position: absolute;
 	left: 50%;
@@ -29,6 +29,7 @@ ol
 	
 }
 
+/* floating two images together on one side */
 #gameplayImage2
 {	
 	border: solid gray;
@@ -84,6 +85,7 @@ ol
 	text-align: center;
 }
 
+/* moving the download tab to the opposite side on the navigation bar */
 #downloadLink
 {
 	float:right;
@@ -95,11 +97,11 @@ ol
 
 }
 
+/* huge top margin avoids overlap of the text and video */
 #References
 {
 	margin-top: 400px;
 }
-
 #gameplayValidator
 {
 	margin-top: 400px;
@@ -114,7 +116,7 @@ ol
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	position: fixed;
+	position: fixed; /* fixes bar at the top of screen for easy access */
 	top: 0;
 	width: 100%;
 	background-color: #d3d3d3;
@@ -135,7 +137,8 @@ ol
 
 .navbar>li>a
 {
-	display: block;
+	/* gives a button like look to the text */
+	display: block; 
 	padding: 8px 25px;
 	text-decoration: none;
 }
@@ -145,8 +148,10 @@ ol
 	color: blue;
 	font-family: Roboto, Calibri, sans-serif;
 }
+
 .BoxHeader
 {
+	text-align: center;
 	margin-left: 0px;
 }
 
@@ -177,12 +182,12 @@ ol
 }
 
 
-a:link
+a:link	/* removes underline for all links */
 {
 	text-decoration: none;
 }
 
-a:hover
+a:hover	/* adds underline when mouse hovers on link */
 {
 	text-decoration: underline;
 }
